@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-elmc
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-user-workloads-stage/rhn-support-rick-tenant/my-app-2/devfile-sample-python-basic-elmc@sha256:fcfe11fd69e64cdf4a2af545503fa677ae4689d22ea0d6f0f2503fff3ca5a14d
         name: my-python
         ports:
         - containerPort: 8081
